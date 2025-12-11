@@ -1,0 +1,7 @@
+/* App-specific styles (optional). Keep Tailwind directives in `src/index.css`. */
+
+/* Example custom class */
+.app-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
