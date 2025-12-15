@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-gradient-to-br from-[#0a0f1f] to-[#020409] ;
+}
+
+html {
+  scroll-behavior: smooth;
+}

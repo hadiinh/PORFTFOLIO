@@ -1,16 +1,46 @@
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md shadow-md z-50">
-      <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
-        <h1 className="text-2xl font-bold tracking-wide">MyPortfolio</h1>
+    <nav className="w-full px-10 py-4 flex justify-between items-center bg-black/70 backdrop-blur-md shadow-sm fixed top-0 left-0 z-50 text-white">
 
-        <ul className="flex space-x-8 font-medium text-gray-700">
-          <a href="#home" className="hover:text-blue-600 transition">Home</a>
-          <a href="#projects" className="hover:text-blue-600 transition">Projects</a>
-          <a href="#skills" className="hover:text-blue-600 transition">Skills</a>
-          <a href="#contact" className="hover:text-blue-600 transition">Contact</a>
-        </ul>
-      </div>
+      <h1 className="text-3xl font-extrabold tracking-wide">HD</h1>
+
+      <ul className="flex gap-6 text-sm font-medium">
+        <li>
+          <a
+            href="#home"
+            className="px-3 py-1 rounded-lg transition-all duration-300 hover:bg-white/10 hover:text-blue-400"
+          >
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="#projects"
+            className="px-3 py-1 rounded-lg transition-all duration-300 hover:bg-white/10 hover:text-blue-400"
+          >
+            Projects
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="#skills"
+            className="px-3 py-1 rounded-lg transition-all duration-300 hover:bg-white/10 hover:text-blue-400"
+          >
+            Skills
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="#contact"
+            className="px-3 py-1 rounded-lg transition-all duration-300 hover:bg-white/10 hover:text-blue-400"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 }
