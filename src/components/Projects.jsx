@@ -6,8 +6,8 @@ export default function Projects() {
   ];
 
   const certificates = [
-    { title: "UI/UX Certificate", img: "/sertif1.png", link: "#" },
-    { title: "Frontend Certificate", img: "/sertif2.png", link: "#" },
+    { title: "Frontend Certificate", img: "/sertif1.png", link: "#" },
+    { title: "Backend Certificate", img: "/sertif2.png", link: "#" },
     { title: "React Certificate", img: "/sertif3.png", link: "#" },
   ];
 
